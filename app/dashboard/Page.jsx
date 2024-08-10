@@ -1,11 +1,10 @@
-import React from 'react'
+import MultiStepForm from "../../components/MultiStepForm";
 
-function Page() {
+export default function DashboardPage() {
   return (
     <div>
-      PAGEE
+      <h1 className="text-center text-3xl font-bold my-6">Multi-Step Form</h1>
+      <MultiStepForm />
     </div>
-  )
+  );
 }
-
-export default Page
